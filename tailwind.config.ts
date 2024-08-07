@@ -16,10 +16,11 @@ const config = {
       screens: {
         "2xl": "1400px",
       },
+      
     },
     extend: {
-      transitionDuration:{
-        '3000': '3000ms',
+      height: {
+        'custom': 'calc(100vh - 112px)',
       },
       colors: {
         
@@ -81,7 +82,7 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
+        montserrat: ["var(--font-montserrat)", ...fontFamily.sans],
       },
     },
   },

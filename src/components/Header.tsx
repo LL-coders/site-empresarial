@@ -2,7 +2,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "./ui
 
 export const Header = () => {
     return (
-        <header className="h-28 bg-transparent w-full flex items-center justify-between ">
+        <header className="h-28 bg-transparent w-full flex items-center justify-between absolute container left-0 mx-auto z-50 ">
             <div className="h-16">
                 <img className="h-full" src="/assets/images/logo-completa.png" alt="logo LL coders" />
             </div>
@@ -33,7 +33,7 @@ export const Header = () => {
                 <nav className="flex gap-8">
                     <a href="" className="relative after:content-[''] after:h-[2px] after:absolute after:w-[50%] after:bottom-0 after:left-0 after:bg-primary-color hover:after:w-full after:transition-all after:duration-500 after:ease-in-out">Ver Mais</a>
                     <a href="" className="border border-primary-color px-8 rounded-md">Sobre</a>
-                    <a href="" className="px-8 rounded-md bg-dark-green hover:bg-[#3e8b87] text-white">Contato</a>
+                    <a href="" className="px-8 rounded-md bg-dark-green hover:bg-[#3e8b87] text-white ">Contato</a>
                 </nav>
             </div>
         </header>
