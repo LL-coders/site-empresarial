@@ -18,7 +18,11 @@ const config = {
       },
     },
     extend: {
+      transitionDuration:{
+        '3000': '3000ms',
+      },
       colors: {
+        
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -52,6 +56,10 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        'primary-color': "#0B132B",
+        'dark-green': '#387d7a',
+        'light-green': '#94ECBE',
+        'light-blue': '#1C2541'
       },
       borderRadius: {
         lg: "var(--radius)",
