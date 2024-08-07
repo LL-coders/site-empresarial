@@ -9,9 +9,11 @@ const Page = () => {
       <div className="container relative">
         <Header />
       </div>
-      
+
       <Home />
-      <About/>
+      <div className="h-screen bg-dark-green">
+        <About/>
+      </div>
     </div>
   )
 }
